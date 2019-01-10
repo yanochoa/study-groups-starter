@@ -1,0 +1,39 @@
+.rules {
+  display: flex;
+  padding: 1% 10% 1% 10%;
+  justify-content: space-between;
+
+  align-items: center;
+  &__icon {
+    width: 15%;
+  }
+}
+.homework {
+  &__title {
+    padding-left: 5%;
+    display: flex;
+    align-items: flex-end;
+    color: #5f99bd;
+
+    h1 {
+      margin-bottom: unset;
+    }
+    &__icon {
+      align-self: baseline;
+      margin: 0px 9px 4px 0px;
+      width: 50px;
+    }
+  }
+
+  &__container {
+    background: #dee2e673;
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 5% 1% 5%;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 2px;
+    height: -webkit-fill-available;
+    margin-bottom: 200px;
+  }
+}

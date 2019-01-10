@@ -1,0 +1,24 @@
+{
+  "features": [
+    {
+      "title": "Avoid Plagarism by following the code of conduct specified by your instructors"
+    },
+    {
+      "title": "No exclusive posts, all students are welcomed"
+    },
+    {
+      "title": "Report any missuse of the platform to admin@studygroups.com"
+    }
+  ],
+  "howTo": [
+    {
+      "title": "Register account"
+    },
+    {
+      "title": "Run: `npm i` to install the dependencies"
+    },
+    {
+      "title": "Other instruction"
+    }
+  ]
+}
