@@ -2,13 +2,13 @@ import React from "react";
 
 import "./_header.scss";
 import logo from "./logo-study-groups2.png";
-import AddListing from "../add-listing";
+import AddGroupButton from "../add-group-button";
 
 const Header = () => (
   <header className="header">
     <div className="header-content">
       <img className="header-logo" src={logo} alt="logo" />
-      <AddListing />
+      <AddGroupButton />
     </div>
   </header>
 );

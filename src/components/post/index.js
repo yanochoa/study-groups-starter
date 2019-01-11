@@ -5,8 +5,12 @@ const Post = props => (
   <section className="post">
     <div className="post__card">
       <h6 className="post__category">{props.category}</h6>
-      <h2 className="post__title">{props.title}</h2>
-      <p className="post__description">{props.description}</p>
+      <h2 className="post__title">
+        <b>{props.title}</b>
+      </h2>
+      <p className="post__description">
+        <i>{props.description}</i>
+      </p>
       <span className="post__when-and-where-label">
         <p className="post__date">
           <b> when:</b> {props.date}
