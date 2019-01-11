@@ -5,8 +5,9 @@ import Features from "../components/features";
 import Post from "../components/post";
 import "../../sass/style.scss";
 import "../../sass/index.scss";
-import CollaborationIcon from "../components/icons/collaboration";
-import HomeworkIcon from "../components/icons/homework";
+import CollaborationIcon from "../components/icon/collaboration";
+import HomeworkIcon from "../components/icon/homework";
+import StudyIcon from "../components/icon/study";
 
 const IndexPage = props => (
   <main>
@@ -14,11 +15,11 @@ const IndexPage = props => (
       <Features data={props.data.allDataJson.edges[0].node.features} />
       <CollaborationIcon />
     </span>
-    <span className="homework__title">
+    <span className="posts-section__title">
       <HomeworkIcon />
       <h1>Homework Groups:</h1>
     </span>
-    <div className="homework__container">
+    <div className="posts-section__container">
       <Post
         category="Homework"
         title="CSC 202 (Dr. Austin) Homework 04"
@@ -35,6 +36,23 @@ const IndexPage = props => (
         hours="2:30 pm - 4:00 pm"
         location="Caffe Luce"
       />
+    </div>
+
+    <span className="posts-section__title">
+      <StudyIcon />
+      <h1>Study Groups:</h1>
+    </span>
+    <div className="posts-section__container">
+      <span className="posts-section__single-study-post">
+        <Post
+          category="Study Group"
+          title="Physics 141 Test 1"
+          description="If we fail, we fail together. We'll be working through the homeworks. Bring snacks if you can!"
+          date="01/16/19"
+          hours="12:30 pm - 5:00 pm"
+          location="Main library room #411G"
+        />
+      </span>
     </div>
   </main>
 );
