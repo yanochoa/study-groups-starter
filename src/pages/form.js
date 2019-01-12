@@ -6,16 +6,21 @@ export default class Form extends Component {
   render() {
     return (
       <div className="inputs">
-        <form name="study-group" method="POST" data-netlify="true">
+        <form
+          name="study-group"
+          method="POST"
+          data-netlify="true"
+          action="/success"
+        >
           <p>
             <label>
-              Your Name:{" "}
+              Your Name:
               <input type="text" name="name" className="form-control" />
             </label>
           </p>
           <p>
             <label>
-              Your Email:{" "}
+              Your Email:
               <input type="email" name="email" className="form-control" />
             </label>
           </p>
