@@ -11,7 +11,16 @@ export default class Form extends Component {
           method="POST"
           data-netlify="true"
           action="/success"
+          data-netlify-honeypot="bot-field"
         >
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+          <input type="hidden" name="form-name" value="study-group" />
+          <p hidden>
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
+          </p>
+
           <p>
             <label>
               Your Name:
