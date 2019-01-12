@@ -1,0 +1,13 @@
+.success {
+  height: stretch;
+  display: flex;
+  justify-content: space-between;
+  &__message {
+    color: gray;
+    margin: 3%;
+  }
+  &__icon {
+    width: 20%;
+    margin-right: 10%;
+  }
+}
