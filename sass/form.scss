@@ -2,6 +2,22 @@
   height: stretch;
   padding-top: 5%;
   padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 3%;
+
+  p {
+    margin: 1%;
+  }
+
+  &__title-and-type {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__radio {
+    display: inline-flex;
+
+    &__cluster {
+      display: -webkit-inline-box;
+      width: fit-content;
+    }
+  }
 }
