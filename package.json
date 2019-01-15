@@ -1,5 +1,5 @@
 {
-  "name": "my-host-cp",
+  "name": "study-groups-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Yan Ochoa & Nathan Bolivar",
+  "author": "Yan Ochoa",
   "license": "",
   "dependencies": {
     "gatsby": "^1.9.277",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yanochoa/my-host-cp"
+    "url": "https://github.com/yanochoa/study-groups-starter"
   }
 }
