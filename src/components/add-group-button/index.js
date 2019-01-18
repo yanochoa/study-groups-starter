@@ -5,7 +5,7 @@ import "./_add-group-button.scss";
 const AddListing = props => (
   <section className="addGroupButton">
     {/* link to /form to complete functionality */}
-    <Link to="/form">
+    <Link to="/">
       <button type="button" className="btn btn-primary">
         Add a new group
       </button>
